@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
 
-        // 先にデータを削除しないと、エラーが発生します。
+        // 先にデータを削除しないと、エラーが発生
         //データを削除するコード
         letters.remove(at: indexPath.row)
         
